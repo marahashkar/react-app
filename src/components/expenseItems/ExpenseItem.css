@@ -1,0 +1,40 @@
+.title{
+    color: aqua;
+}
+.expense-item{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #a9a8a8;
+    padding: 10px;
+    margin: 10px;
+}
+.expense-item_description{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+.expense-item_price{
+border: 3px solid #ffffff;
+    padding: 5px 15px;
+    background-color: blueviolet;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 12px;
+}
+button {
+    cursor: pointer;
+    padding: 0.8rem 1rem;
+    border: 1px solid #eee9f0;
+    background-color: #40005d;
+    color: white;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+button:hover,
+button:active {
+
+    border-color: #510674;
+    background-color: #510674;
+}

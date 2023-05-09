@@ -1,0 +1,12 @@
+.filterSection{
+    display: flex;
+        justify-content: flex-end;
+        padding: 0px 60px;
+}
+.filterSection select{
+    color: #ffffff;
+        padding: 10px 20px;
+        border-radius: 8px;
+        background-color: #40005d;
+        width: 140px;
+}
